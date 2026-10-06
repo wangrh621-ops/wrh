@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#f7faff">
+  <title>作品集 — Portfolio</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar"><a class="brand" href="#home">PORTFOLIO<span>®</span></a><span class="top-note">剪辑 · 海报 · 商品视觉</span><button class="menu-button" aria-label="打开导航">MENU <b>＋</b></button></header>
+  <aside class="menu-panel" aria-hidden="true"><button class="menu-close" aria-label="关闭导航">×</button><a href="#videos">视频作品 <small>01—04</small></a><a href="#posters">海报设计 <small>01—06</small></a><a href="#products">商品海报 <small>01—06</small></a><a href="#article">文章 <small>ARTICAL</small></a><a href="#about">关于我 <small>HELLO</small></a></aside>
+  <main id="home">
+    <section class="cover" aria-label="作品集封面">
+      <img class="cover-pattern" src="assets/portfolio/cover-bg.jpg" alt="">
+      <div class="cover-gallery">
+        <a class="cover-photo cover-photo-one" href="#about" aria-label="About me"><img src="assets/portfolio/about-me.jpg" alt="蓝色网点人物肖像"><span>ABOUT ME</span></a>
+        <a class="cover-photo cover-photo-two" href="#posters" aria-label="Designs"><img src="assets/portfolio/cover-1.jpg" alt="白色兰花静物摄影"><span>DESIGNS</span></a>
+        <a class="cover-photo cover-photo-three" href="#videos" aria-label="Edit works"><img src="assets/portfolio/cover-3.jpg" alt="站台上的人物拼贴摄影"><span>EDIT WORKS</span></a>
+        <a class="cover-photo cover-photo-four" href="#article" aria-label="Article"><img src="assets/portfolio/contact.jpg" alt="薄荷绿色浮雕花纹图像"><span>ARTICAL</span></a>
+      </div>
+    </section>
+
+    <section class="work-section videos-section" id="videos"><div class="section-heading"><div><span class="section-no">01</span></div><span class="section-count">4 <small>VIDEOS</small></span></div><div class="video-grid">
+      <button class="video-card video-large" data-video="assets/portfolio/video-1.mp4" data-title="视频 01"><span class="video-window"><video src="assets/portfolio/video-1.mp4" muted loop playsinline preload="metadata"></video><i class="play-icon">▶</i><span class="video-number">VIDEO — 01</span></span><span class="card-caption"><b>视频 01</b><span>PLAY ↗</span></span></button>
+      <button class="video-card" data-video="assets/portfolio/video-2.mp4" data-title="视频 02"><span class="video-window"><video src="assets/portfolio/video-2.mp4" muted loop playsinline preload="metadata"></video><i class="play-icon">▶</i><span class="video-number">VIDEO — 02</span></span><span class="card-caption"><b>视频 02</b><span>PLAY ↗</span></span></button>
+      <button class="video-card" data-video="assets/portfolio/video-3.mp4" data-title="视频 03"><span class="video-window"><video src="assets/portfolio/video-3.mp4" muted loop playsinline preload="metadata"></video><i class="play-icon">▶</i><span class="video-number">VIDEO — 03</span></span><span class="card-caption"><b>视频 03</b><span>PLAY ↗</span></span></button>
+      <button class="video-card video-wide" data-video="assets/portfolio/video-4.mov" data-title="视频 04"><span class="video-window"><video src="assets/portfolio/video-4.mov" muted loop playsinline preload="metadata"></video><i class="play-icon">▶</i><span class="video-number">VIDEO — 04</span></span><span class="card-caption"><b>视频 04</b><span>PLAY ↗</span></span></button>
+    </div></section>
+
+    <section class="work-section posters-section" id="posters"><div class="section-heading"><div><span class="section-no">02</span></div><span class="section-count">6 <small>POSTERS</small></span></div><div class="poster-grid">
+      <button class="image-card poster-a" data-image="assets/portfolio/poster-1.jpg" data-title="海报设计 01"><img src="assets/portfolio/poster-1.jpg" alt="蓝色与奶油色拼贴排版海报"><span>POSTER 01 <b>↗</b></span></button>
+      <button class="image-card poster-b" data-image="assets/portfolio/poster-2.jpg" data-title="海报设计 02"><img src="assets/portfolio/poster-2.jpg" alt="黄色复古拼贴肖像海报"><span>POSTER 02 <b>↗</b></span></button>
+      <button class="image-card poster-c" data-image="assets/portfolio/poster-3.jpg" data-title="海报设计 03"><img src="assets/portfolio/poster-3.jpg" alt="复古颗粒质感音乐海报"><span>POSTER 03 <b>↗</b></span></button>
+      <button class="image-card poster-d" data-image="assets/portfolio/poster-4.jpg" data-title="海报设计 04"><img src="assets/portfolio/poster-4.jpg" alt="黑白极简人物拼贴海报"><span>POSTER 04 <b>↗</b></span></button>
+      <button class="image-card poster-e" data-image="assets/portfolio/poster-5.jpg" data-title="海报设计 05"><img src="assets/portfolio/poster-5.jpg" alt="蓝色与荧光黄人物拼贴海报"><span>POSTER 05 <b>↗</b></span></button>
+      <button class="image-card poster-f" data-image="assets/portfolio/poster-6.jpg" data-title="海报设计 06"><img src="assets/portfolio/poster-6.jpg" alt="街头风格人物拼贴海报"><span>POSTER 06 <b>↗</b></span></button>
+    </div></section>
+
+    <section class="work-section products-section" id="products"><div class="section-heading"><div><span class="section-no">03</span></div><span class="section-count">6 <small>OBJECTS</small></span></div><div class="product-grid">
+      <button class="image-card product-a" data-image="assets/portfolio/product-1.jpg" data-title="商品海报 01"><img src="assets/portfolio/product-1.jpg" alt="The Ordinary 精华产品海报"><span>PRODUCT 01 <b>↗</b></span></button>
+      <button class="image-card product-b" data-image="assets/portfolio/product-2.jpg" data-title="商品海报 02"><img src="assets/portfolio/product-2.jpg" alt="KEATS 精华瓶静物海报"><span>PRODUCT 02 <b>↗</b></span></button>
+      <button class="image-card product-c" data-image="assets/portfolio/product-3.jpg" data-title="商品海报 03"><img src="assets/portfolio/product-3.jpg" alt="手霜产品黑白海报"><span>PRODUCT 03 <b>↗</b></span></button>
+      <button class="image-card product-d" data-image="assets/portfolio/product-4.jpg" data-title="商品海报 04"><img src="assets/portfolio/product-4.jpg" alt="润唇膏花卉商品海报"><span>PRODUCT 04 <b>↗</b></span></button>
+      <button class="image-card product-e" data-image="assets/portfolio/product-5.jpg" data-title="商品海报 05"><img src="assets/portfolio/product-5.jpg" alt="Abib 面霜放大镜商品海报"><span>PRODUCT 05 <b>↗</b></span></button>
+      <button class="image-card product-f" data-image="assets/portfolio/product-6.gif" data-title="商品海报 06"><img src="assets/portfolio/product-6.gif" alt="动态玻尿酸精华商品海报"><span>PRODUCT 06 <b>↗</b></span></button>
+    </div></section>
+
+    <section class="article-section" id="article" aria-labelledby="article-title"><h1 id="article-title" class="visually-hidden">当“奢华”开始失效：从 Gucci 2027 春夏秀场说起</h1><figure><img src="assets/portfolio/article-gucci.png" alt="文章《当“奢华”开始失效：从 Gucci 2027 春夏秀场说起》的完整排版页面"></figure></section>
+
+    <section class="about-section" id="about"><div class="about-intro"><p>我是一名市场营销专业的学生，长期关注时尚、视觉文化与品牌表达。</p><p>从商业与艺术的交叉视角出发，我习惯观察日常生活中的图像、消费与审美变化，并尝试通过摄影、视觉设计与文字建立自己的表达方式。</p><p>我希望在商业逻辑之外，探索视觉如何传递情绪、观点与个人经验。</p></div><div class="about-identity"><h2>王瑞荷</h2><a href="mailto:2103466463@qq.com">2103466463@qq.com</a></div></section>
+  </main>
+  <dialog class="lightbox" aria-label="作品预览"><button class="lightbox-close" aria-label="关闭预览">×</button><div class="lightbox-content"></div><p class="lightbox-caption"></p></dialog>
+  <script src="script.js"></script>
+</body>
+</html>
